@@ -45,7 +45,7 @@ The solution implements a **modular, multi-tenant SaaS platform** designed to be
 * Implemented the **RAG pipeline** integrating LLMs (Gemini) and STT (Whisper) to process multimodal inputs.
 * Engineered a **dynamic conversational UX** where bot interactions are rendered programmatically based on the stored JSON configuration.
 * Automated the **CI/CD pipeline** and monitoring strategy to ensure high availability.
-<img src="https://raw.githubusercontent.com/corentinseu/Portfolio_Corentin/blob/main/images/CS_Labs_Schema.png" alt="CS_Labs_Schema" width="100%" />
+<img src="https://raw.githubusercontent.com/corentinseu/Portfolio_Corentin/main/images/CS_Labs_Schema.png" alt="CS_Labs_Schema" width="100%" />
 **Technology stack:** Docker, PostgreSQL (JSONB), n8n, Google Gemini Pro, OpenAI Whisper, Telegram API, Gotenberg, Cloudflare Tunnel, Node.js.
 
 ---
@@ -64,7 +64,7 @@ I designed a **Decoupled Architecture** using **Workato** as a transformation mi
 * **Complex CSV Re-Mapping (Stock Flow):** The system ingests raw internal SQL extracts (CSV). Workato applies a rigid **column mapping strategy** (renaming headers, reformatting dates, calculating availability) to generate a partner-compliant CSV file.
 * **Deep XML Node Translation (Order Cycle):** For the Order-to-Cash loop (Orders, Responses, Tracking), implemented a **node-by-node translation logic**. The middleware parses the partner's specific XML tags and reconstructs the file into the internal XML standard (e.g., mapping `<Customer_Reference>` to `<Internal_Client_ID>`) ensuring semantic consistency.
 
-<img src="https://raw.githubusercontent.com/corentinseu/Portfolio_Corentin/blob/main/images/EDI_AP_MPSA.png" alt="EDI_Architecture_Schema" width="100%" />
+<img src="https://raw.githubusercontent.com/corentinseu/Portfolio_Corentin/main/images/EDI_AP_MPSA.png" alt="EDI_Architecture_Schema" width="100%" />
 
 **Technology stack:** Workato (iPaaS), SFTP (SSH File Transfer Protocol), XML/CSV Transformation, EDI Logic.
 
