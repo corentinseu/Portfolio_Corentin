@@ -14,7 +14,7 @@ I am a driven Data Engineering student and developer with a strong focus on buil
 ## 🚀 Projects
 
 *All case studies represent real-world professional implementations and personal R&D. Specific business details have been generalized to protect confidentiality.*
-### 🏛 Generative AI-powered SaaS for Field Operations
+### 🏛 Generative AI-powered SaaS for Field Operations (currently in developpment)
 
 **Industry:** Field Services, Construction & Real Estate (SaaS)
 
