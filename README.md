@@ -84,4 +84,16 @@ I designed a **Decoupled Architecture** using **Workato** as a transformation mi
 * **Skill Shift:** Acted as a technical bridge during the migration, mastering both platforms to ensure a smooth architectural handover.
 
 **Technology stack:** SnapLogic, Workato, REST APIs, JSON, SQL.
+🤖 CS Labs — B2B AI Automation Agency (micro-enterprise, founder)
+Industry: Recruitment (IT staffing agencies)
+Problem Recruitment consultants in IT-focused agencies spend 20–30 minutes manually reformatting every CV before client submission — anonymizing, restructuring, and applying house templates. For a small agency processing 50+ CVs/month, that's 15–20 hours of low-value administrative work with no ATS to absorb it.
+Solution Built a fully automated, email-native CV processing pipeline. The consultant forwards a raw CV → receives a formatted, anonymized competency dossier as a PDF in under 2 minutes. Zero additional software required on the client side.
 
+Multi-agent architecture: Four specialized agents (CV processing, job description parsing, interview report generation, lead qualification) running concurrently via n8n, with language detection, body+attachment fusion, and 7 security gates.
+AI layer: GPT-4o-mini with few-shot JSON strict prompting for structured anonymization and competency extraction.
+PDF generation: Gotenberg with custom HTML/CSS templates, dynamically populated from structured agent output.
+Infrastructure: Self-hosted on Proxmox (Ubuntu 24), Docker Compose stack, Cloudflare Tunnel for secure exposure, Brevo SMTP, Scaleway Object Storage, PostgreSQL 16.
+Commercial model: Starter 149€/mo · Pro 299€/mo · Bespoke 500€ setup + 199€/mo.
+
+My responsibilities: End-to-end — architecture, infrastructure, agent design, prompt engineering, PDF templating, legal setup (micro-entrepreneur), and go-to-market targeting IT recruitment agencies in Sophia Antipolis.
+Technology stack: n8n, Docker, PostgreSQL 16, GPT-4o-mini, Gotenberg, Cloudflare Tunnel, Brevo SMTP, Scaleway Object Storage, Proxmox.
