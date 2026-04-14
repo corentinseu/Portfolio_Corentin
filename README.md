@@ -84,6 +84,7 @@ I designed a **Decoupled Architecture** using **Workato** as a transformation mi
 * **Skill Shift:** Acted as a technical bridge during the migration, mastering both platforms to ensure a smooth architectural handover.
 
 **Technology stack:** SnapLogic, Workato, REST APIs, JSON, SQL.
+
 ---
 
 ### 🤖 CS Labs — B2B AI Automation Agency
